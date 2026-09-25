@@ -1,8 +1,8 @@
 class Solution {
 public:
     vector<string> fizzBuzz(int n) {
-        vector<string> ans;
-        ans.reserve(n);
+   vector <string> ans;
+
         for (int i = 1; i <= n; ++i) {
             string current = "";
 
